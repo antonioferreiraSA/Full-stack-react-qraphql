@@ -1,30 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
-import {
-  ApolloClient,
-  ApolloProvider,
-  InMemoryCache,
-} from '@apollo/client';
-import './index.css';
-import { StoreProvider } from 'easy-peasy';
-import App from './components/App/App';
-import { store } from './store';
-
-const client = new ApolloClient({
-  uri: process.env.REACT_APP_DEFAULT_PORT,
-  cache: new InMemoryCache(),
-});
+import React from "react";
+import ReactDOM from "react-dom";
+import { ApolloProvider } from "@apollo/client";
+import { Provider } from "react-redux";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { apolloClient } from "./config/apolloClient.config";
+import { store } from "./store";
 
 ReactDOM.render(
   <React.StrictMode>
-    <ApolloProvider client={ client }>
-      <StoreProvider store={ store }>
-        <Router>
-          <App />
-        </Router>
-      </StoreProvider>
-    </ApolloProvider>
+    <Provider store={store}>
+      <ApolloProvider client={apolloClient}>
+        <App />
+      </ApolloProvider>
+    </Provider>
   </React.StrictMode>,
-  document.getElementById('root'),
+  document.getElementById("root")
 );
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
