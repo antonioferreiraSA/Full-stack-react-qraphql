@@ -20,7 +20,8 @@ install all dependencies
 
  $ cd /client 
  $ yarn install
- ![logo](./11.png)
+ ![logo](11.png)
+
  ![logo](../../assets/img/1 .png)
 
  then create a .env file the place this code
