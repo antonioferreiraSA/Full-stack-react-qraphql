@@ -20,13 +20,13 @@ install all dependencies
 
  $ cd /client 
  $ yarn install
- ![logo](../Pictures/11.png)
+ ![logo](./11.png)
  ![logo](../../assets/img/1 .png)
 
  then create a .env file the place this code
 
   SKIP_PREFLIGHT_CHECK=true
- ![logo](../../assets/img/7.png)
+ ![logo](../7.png)
 
 
 # Start local server
