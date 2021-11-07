@@ -44,31 +44,25 @@ it will automatically open http://localhost:3000/
 
 Dont worry if you only see a pciture with a error under it saying (Somthing went wrong ) this is becasue we need to startup the backend grapql server.
 
-# Start backend grapql server
+# Start backend Graphql server
 
-cd out of the client folder to the root folder like this
-
-```bash
- cd ..
-```
+The server is in the root directory
 
 # Install Node.js dependencies
+
+This command will install required dependencies listed in package.json.
 
 ```bash
 yarn install
 ```
 
-```bash
- cd src
-```
-
-Start backend grapql server
+This command will start the server at http://localhost:4000
 
 ```bash
-yarn start
+ yarn start
 ```
 
-we can now go back to our front-end  server and everything should work  http://localhost:3000/
+we can now go back to our front-end   and everything should work  http://localhost:3000/
 
 it should show you  this :
 
