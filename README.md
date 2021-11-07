@@ -33,7 +33,8 @@ install all dependencies
  This will start the React front-end
 
  ```bash
- $ yarn start```
+ $ yarn start
+ ```
 
  it will automatically open  http://localhost:3000/
  
@@ -44,7 +45,8 @@ install all dependencies
   cd out of  the client folder to the root folder like this
 
   ```bash
-  $ cd ..``` 
+  $ cd ..
+  ``` 
 
  # Install Node.js dependencies
 
@@ -53,7 +55,8 @@ install all dependencies
   ```
 
   ```bash
-  $ cd src``` 
+  $ cd src
+  ``` 
 
 
  then to run it you need to install ts-node to run a typescript file 
