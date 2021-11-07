@@ -12,7 +12,7 @@ Click links below to read documentation on how to get started.
 
 
 # Local development
-Fork repository:  at [antonioferreiraSA/Full-stack-react-qraphql].(https://github.com/antonioferreiraSA/Full-stack-react-qraphql).
+Fork repository:  at (https://github.com/antonioferreiraSA/Full-stack-react-qraphql)
 
 # Install Node.js dependencies
 
