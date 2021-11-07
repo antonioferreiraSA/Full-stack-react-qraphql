@@ -11,107 +11,65 @@ The project is managed with Yarn and Yarn Workspaces. It is mono-repo housing 2 
 Click links below to read documentation on how to get started.
 
 # Local development
-Fork repository:  at (https://github.com/antonioferreiraSA/Full-stack-react-qraphql)
+
+Fork repository: at (https://github.com/antonioferreiraSA/Full-stack-react-qraphql)
 
 # Install Node.js dependencies
 
-install all dependencies 
+install all dependencies
 
- ```bash
- cd /client 
- ```
- ```bash
- $ yarn install
- ```
+```bash
+cd /client
+```
 
- then create a .env file the place this code
+```bash
+ yarn install
+```
 
-  ```bash
-  SKIP_PREFLIGHT_CHECK=true
-  ```
+then create a .env file the place this code
+
+```bash
+SKIP_PREFLIGHT_CHECK=true
+```
 
 # Start local server
- This will start the React front-end
 
- ```bash
- $ yarn start
- ```
+This will start the React front-end
 
- it will automatically open  http://localhost:3000/
- 
- Dont worry if you only see a pciture with a error under it saying (Somthing went wrong ) this is becasue we need to startup the backend grapql server.
+```bash
+yarn start
+```
 
- # Start  backend grapql  server
+it will automatically open http://localhost:3000/
 
-  cd out of  the client folder to the root folder like this
+Dont worry if you only see a pciture with a error under it saying (Somthing went wrong ) this is becasue we need to startup the backend grapql server.
 
-  ```bash
-   cd ..
-  ```
+# Start backend grapql server
 
- # Install Node.js dependencies
+cd out of the client folder to the root folder like this
 
-  ```bash
-  yarn install
-  ```
+```bash
+ cd ..
+```
 
-  ```bash
-  $ cd src
-  ``` 
+# Install Node.js dependencies
 
+```bash
+yarn install
+```
 
- then to run it you need to install ts-node to run a typescript file 
+```bash
+ cd src
+```
 
- ```bash
-npm i ts-node``` 
- once done we ready to run the server
-  `$ ts-node index.ts`
+Start backend grapql server
 
+```bash
+yarn start
+```
 
- we can now go back to our front-end  server and everything should work  http://localhost:3000/
+we can now go back to our front-end  server and everything should work  http://localhost:3000/
 
- it should show you  this : 
+it should show you  this :
 
- ![logo](10.png)
-
- thank you very much for your time. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
- 
-
-
-
-
-
-
-
-
-
-
+![logo](10.png)
