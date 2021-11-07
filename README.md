@@ -6,7 +6,7 @@ This is the assessment that was sent to me by  SovTech, it is a full-stack asse
 
 # Project Structure
 
-The project is managed with Yarn and Yarn Workspaces. It is mono-repo housing 2 seperate projects, the React frontend and the server on Apollo GraphQL backend.
+The project is managed with Yarn and Yarn Workspaces. It is mono-repo housing 2 separate projects, the React frontend and the server on Apollo GraphQL backend.
 
 Click links below to read documentation on how to get started.
 
@@ -42,7 +42,7 @@ yarn start
 
 it will automatically open http://localhost:3000/
 
-Dont worry if you only see a pciture with a error under it saying (Somthing went wrong ) this is becasue we need to startup the backend grapql server.
+Don't worry if you only see a picture with a error under it saying (Something went wrong ) this is because we need to startup the backend graphql server.
 
 # Start backend Graphql server
 
