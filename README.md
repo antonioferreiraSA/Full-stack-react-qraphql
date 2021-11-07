@@ -18,11 +18,10 @@ Fork repository:  at [antonioferreiraSA/Full-stack-react-qraphql].(https://githu
 
 install all dependencies 
 
- $ cd /client 
- $ yarn install
- ![logo](11.png)
-
- ![logo](../../assets/img/1 .png)
+ `$ cd /client`
+ `$ yarn install`
+ ![logo](./11.png)
+ ![logo](1 .png)
 
  then create a .env file the place this code
 
