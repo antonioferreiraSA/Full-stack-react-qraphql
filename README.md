@@ -28,7 +28,7 @@ install all dependencies
 # Start local server
  This will start the React front-end
 
- $ yarn start
+ `$ yarn start`
 
  it will automatically open  http://localhost:3000/
  
@@ -37,7 +37,7 @@ install all dependencies
  # Start  backend grapql  server
 
   cd out of  the client folder to the root folder like this
-  $ cd ..
+  `$ cd ..`
 
  # Install Node.js dependencies
   `$ yarn install`
