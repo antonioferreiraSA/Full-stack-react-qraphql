@@ -18,8 +18,12 @@ Fork repository:  at (https://github.com/antonioferreiraSA/Full-stack-react-qrap
 
 install all dependencies 
 
- `$ cd /client`
- `$ yarn install`
+ ```bash
+ $ cd /client
+ ```
+ ```bash
+ $ yarn install
+ ```
 
  then create a .env file the place this code
 
@@ -28,7 +32,8 @@ install all dependencies
 # Start local server
  This will start the React front-end
 
- `$ yarn start`
+ ```bash
+ $ yarn start```
 
  it will automatically open  http://localhost:3000/
  
@@ -37,15 +42,25 @@ install all dependencies
  # Start  backend grapql  server
 
   cd out of  the client folder to the root folder like this
-  `$ cd ..`
+
+  ```bash
+  $ cd ..``` 
 
  # Install Node.js dependencies
-  `$ yarn install`
-  `$ cd src`
+
+  ```bash
+  $ yarn install
+  ```
+
+  ```bash
+  $ cd src``` 
 
 
  then to run it you need to install ts-node to run a typescript file 
- `$ npm i ts-node`
+
+ ```bash
+ $ npm i ts-node
+ ```
  
  once done we ready to run the server
   `$ ts-node index.ts`
