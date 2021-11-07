@@ -10,7 +10,6 @@ The project is managed with Yarn and Yarn Workspaces. It is mono-repo housing 2 
 
 Click links below to read documentation on how to get started.
 
-
 # Local development
 Fork repository:  at (https://github.com/antonioferreiraSA/Full-stack-react-qraphql)
 
@@ -19,7 +18,7 @@ Fork repository:  at (https://github.com/antonioferreiraSA/Full-stack-react-qrap
 install all dependencies 
 
  ```bash
- $ cd /client
+ cd /client 
  ```
  ```bash
  $ yarn install
@@ -47,13 +46,13 @@ install all dependencies
   cd out of  the client folder to the root folder like this
 
   ```bash
-  $ cd ..
-  ``` 
+   cd ..
+  ```
 
  # Install Node.js dependencies
 
   ```bash
-  $ yarn install
+  yarn install
   ```
 
   ```bash
@@ -64,9 +63,7 @@ install all dependencies
  then to run it you need to install ts-node to run a typescript file 
 
  ```bash
- $ npm i ts-node
- ```
- 
+npm i ts-node``` 
  once done we ready to run the server
   `$ ts-node index.ts`
 
