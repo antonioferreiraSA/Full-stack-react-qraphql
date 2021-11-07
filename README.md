@@ -23,7 +23,7 @@ install all dependencies
 
  then create a .env file the place this code
 
-  SKIP_PREFLIGHT_CHECK=true
+  `SKIP_PREFLIGHT_CHECK=true`
 
 # Start local server
  This will start the React front-end
@@ -56,7 +56,6 @@ install all dependencies
  it should show you  this : 
 
  ![logo](10.png)
-
 
  thank you very much for your time. 
 
