@@ -8,8 +8,6 @@ import path from 'path';
 import schema from './graphql/schemas/schema';
 import { performAstCodegen } from './codegen';
 
-
-
 const startServer = async () => {
   const app = express();
   const server = new ApolloServer({
@@ -32,9 +30,7 @@ const startServer = async () => {
   });
 
   httpServer.listen(4000, () => {
-    console.log(
-      `🚀 Server ready at http://localhost:4000{server.graphqlPath}`
-    );
+    console.log(`🚀 Server ready at http://localhost:4000${server.graphqlPath}`);
   });
 };
 
