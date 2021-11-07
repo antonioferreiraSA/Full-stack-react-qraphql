@@ -27,7 +27,9 @@ install all dependencies
 
  then create a .env file the place this code
 
-  `SKIP_PREFLIGHT_CHECK=true`
+  ```bash
+  SKIP_PREFLIGHT_CHECK=true
+  ```
 
 # Start local server
  This will start the React front-end
