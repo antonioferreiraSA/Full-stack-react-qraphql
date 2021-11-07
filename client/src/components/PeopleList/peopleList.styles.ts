@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const PeopleListContainer = styled.div`
+  background-color: #f0ebeb;
   margin-top: 10px;
   display: flex;
   flex-direction: column nowrap;
