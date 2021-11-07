@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const PersonItemContainer = styled.div`
+  background-color: #636363;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -19,6 +20,7 @@ export const PersonItemContent = styled.div`
   flex-direction: row;
   justify-content: space-between;
   padding: 0.5rem;
+  color: white;
 
   @media (max-width: 1200px) {
     flex-direction: column;
