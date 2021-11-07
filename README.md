@@ -2,7 +2,7 @@
 
 # Overview
 
-This is the assessment that was sent to me by  SovTech, it is a full-stack assessment requiring me to develop both the frontend with (React,)  and backend using grapgql.
+This is the assessment that was sent to me by  SovTech, it is a full-stack assessment requiring me to develop both the frontend with (React, Styled components)  and backend using Graphql.
 
 # Project Structure
 
